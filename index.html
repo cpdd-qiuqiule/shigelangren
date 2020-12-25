@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var x = [1, 2]
+        var y = [2, 3, 4]
+        var z = []
+        for (i = 0; i < y.length; i++) {
+            z[z.length] = y[i]
+        }
+        for (var i = 0; i < x.length; i++) {
+            if (z.indexOf(x[i]) == -1) {
+                z.push(x[i])
+            }
+        }
+        console.log(z, y);
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
